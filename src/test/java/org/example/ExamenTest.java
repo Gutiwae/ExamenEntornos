@@ -13,7 +13,7 @@ class ExamenTest {
         double expected = 1000.0;
 
         double result = Examen.ej9(tipo, sueldo, antiguedad);
-        assertEquals(expected, result, 0.001);
+        assertEquals(expected, result, 0.001); //Da el mismo sueldo
     }
 
     @Test
@@ -24,7 +24,7 @@ class ExamenTest {
         double expected = 1001.0;
 
         double result = Examen.ej9(tipo, sueldo, antiguedad);
-        assertEquals(expected, result, 0.001);
+        assertEquals(expected, result, 0.001);//Da el mismo sueldo
     }
 
     @Test
@@ -35,7 +35,7 @@ class ExamenTest {
         double expected = 1000.0;
 
         double result = Examen.ej9(tipo, sueldo, antiguedad);
-        assertEquals(expected, result, 0.001);
+        assertEquals(expected, result, 0.001);//Da el mismo sueldo
     }
     @Test
     public void test4() {
@@ -44,7 +44,7 @@ class ExamenTest {
         int antiguedad = 0;
         double expected = 1000.0;
         double result = Examen.ej9(tipo, sueldo, antiguedad);
-        assertEquals(expected, result, 0.001);
+        assertEquals(expected, result, 0.001);//Da el mismo sueldo
     }
     @Test
     public void test5() {
@@ -54,6 +54,6 @@ class ExamenTest {
         double expected = 999.0;
 
         double result = Examen.ej9(tipo, sueldo, antiguedad);
-        assertEquals(expected, result, 0.001);
+        assertEquals(expected, result, 0.001);//Da el mismo sueldo
     }
 }
